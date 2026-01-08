@@ -80,7 +80,30 @@ header nav {
 }
 
 /* notes-cart */
-
+.note-section-cart{
+  display: flex;
+  gap: 24px;
+  margin-top: 44px;
+}
 .notes-cart{
-    width: 300px;
+    box-shadow: 10px 10px 20px gray;
+    text-align: center;
+    margin: 0;
+    padding: 70px 24px;
+    border-radius: 8px;
+}
+.notes-cart h1{
+  font-size: 24px;
+  font-weight: 600;
+}
+.notes-cart p{
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+.notes-cart img{
+  padding: 8px;
+   border-radius: 100%;
+   background: #F95555;
 }
