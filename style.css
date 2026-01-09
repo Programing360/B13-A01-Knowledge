@@ -42,11 +42,21 @@ header nav {
   cursor: pointer;
   box-shadow: 0 3px 20px #627382;
 }
+.group-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-style{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
 .btn-section2 {
   background: none;
   color: white;
   border: 1px solid #ffffff;
-  padding: 10px 16px;
+  padding: 8px 16px;
   border-radius: 5px;
   margin-left: 16px;
   cursor: pointer;
