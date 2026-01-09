@@ -22,6 +22,16 @@ header nav {
   list-style: none;
   gap: 32px;
 }
+.nav-list ul li{
+  padding: 7px;
+  border-radius: 20px;
+  transition: ease-in-out;
+  transition-duration: .3s;
+}
+.nav-list ul li:hover{
+  background: #00000028;
+  
+}
 
 .btn-section {
   background: #469165;
@@ -30,6 +40,7 @@ header nav {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  box-shadow: 0 3px 20px #627382;
 }
 .btn-section2 {
   background: none;
@@ -63,7 +74,7 @@ header nav {
 }
 
 /* main part */
-main{
+main {
   width: 70%;
   max-width: 1360px;
   margin: auto;
@@ -127,13 +138,12 @@ main{
   gap: 60px;
   margin-top: 100px;
 }
-.brain-section-title h1{
+.brain-section-title h1 {
   font-size: 48px;
   font-weight: bold;
 }
 .brain-section-list ul li {
   padding-bottom: 15px;
- 
 }
 .tik-icon {
   padding: 2px 5px;
@@ -148,19 +158,19 @@ main{
   width: 500px;
   color: #627382;
 }
-.solution-title{
+.solution-title {
   color: #30b868;
 }
 
 /* learner-section */
 
-.learner-section{
+.learner-section {
   text-align: center;
   margin-top: 30px;
-  background: #F7F6F2;
+  background: #f7f6f2;
   padding: 80px 0;
 }
-.learner-section-info p{
+.learner-section-info p {
   font-size: 16px;
   font-weight: normal;
   line-height: 20px;
@@ -168,4 +178,43 @@ main{
   color: #627382;
   margin: auto;
   padding: 20px 0;
+}
+
+/* footer-section */
+footer {
+  width: 83%;
+  max-width: 16000px;
+  margin: 120px auto 0;
+  background: #001931;
+  color: #f7f6f2;
+
+}
+.footer-section {
+  width: 70%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 0px 80px 0 
+}
+
+.footer-section p{
+  text-align: center;
+  padding: 30px 0;
+  font-size: 16px;
+  color: #FAFAFA;
+}
+
+.Social-icon h2{
+  font-size: 20px;
+}
+
+.Social-icon img{
+  /* padding-right: 16px; */
+  margin-right: 16px;
+  border-radius: 100%;
+  cursor: pointer;
 }
